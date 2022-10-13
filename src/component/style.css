@@ -1,0 +1,28 @@
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 1px solid darkgray;
+  width: 800px;
+  height: 400px;
+  position: relative;
+  padding: 20px;
+}
+.receiver {
+  position: absolute;
+  right: 30%;
+  bottom: 10%;
+}
+.stamp {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 100px;
+  height: 120px;
+  border: 2px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
